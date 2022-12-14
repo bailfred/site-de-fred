@@ -1,0 +1,119 @@
+.alert-danger{
+  background-color: red;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 0 1rem 0;
+}
+
+.alert-success{
+  background-color: green;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 0 1rem 0;
+}
+
+body {
+  background-image:url("../IMG/clavier-fred.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 74.2vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 70%;
+  margin: 15rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  border: 1px solid blue;
+  background-color: rgba(0,0,0,0.45);
+  border-radius: 15px;
+  margin-bottom: 9rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+
+}
+
+form label{
+  color: whitesmoke;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+form input, form textarea, form button{
+  padding: 0.5rem;
+}
+
+form button{
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  background-color: rgba(90, 211, 211, 0.8);
+  color: white;
+}
+
+form button:hover{
+  background-color: rgba(90, 211, 211, 0.64);
+  color: white;
+}
+
+/***********************************************CONTACT***************
+.container-global{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: blue;
+}
+
+.container{
+  background: rgba(66, 65, 65, 0.49);
+  border-radius: 15px;
+  margin-top: 15rem;
+  box-shadow: 5px 8px 8px 8px rgba(0, 255, 234, 0.348);
+  width: 60%;
+}
+
+.h2 {
+  color: white;
+  text-align: center;
+}
+
+form{
+  background: red;
+}
+
+#inputmessage{
+  resize: none;
+  height: 8rem;
+}
+
+.btn{
+  margin-top: 1rem;
+}
+
+.btn:hover{
+  animation: pulsation_bouton .2s ease-out
+}
+
+@keyframes pulsation_bouton {
+  from {
+    box-shadow: 0 0 0 -3px hsla(0, 0%, 100%, 0), 0 0 0 0 hsl(44, 66%, 57%)
+  }to {
+    box-shadow: 0 0 0 10px hsla(0, 0%, 100%, 0), 0 0 0 13px hsla(0, 0%, 100%, 0)
+  }
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+/***************************************/
+.container-construct{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-warning{
+    margin-top: 15rem;
+    border: thick double #32a1ce;
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.warning{
+    margin-top: 1rem;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: .9s;
+    animation-name: warning-anim;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+
+@keyframes warning-anim {
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.text-warning{
+    color: whitesmoke;
+}

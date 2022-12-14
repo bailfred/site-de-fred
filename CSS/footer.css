@@ -1,0 +1,27 @@
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(5, 5, 7);
+}
+
+.jours{
+  color: white; 
+  font-size: 1rem;
+}
+
+.horaire{
+  list-style-type: "\1F44D";
+  
+}
+
+.group a{
+  padding:0.5rem;
+  color: rgb(84, 84, 245)
+}
+
+.right{
+  margin: 1rem 0;
+
+}

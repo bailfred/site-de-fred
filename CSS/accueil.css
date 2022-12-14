@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #5cc0c0;
+  color: white;
+}
+/**********************partie1***********/
+.background{
+  background-image: url("../IMG/clip-path1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  border-bottom : 4px solid black;
+}
+
+h1{
+  text-shadow: 2px 2px #6be1d4;
+  font-size: 3rem;
+}
+
+.container-top{
+  padding-top: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-enterprise{
+  font-size: 1.8rem;
+  margin-top: 10rem;
+}
+
+.contact-mail{
+  text-decoration: none;
+  color: #6be1d4;
+  text-transform: uppercase;
+  border: 1px solid #6be1d4;
+  padding: 0.5rem;
+  background-color: rgb(84, 84, 237);
+  box-shadow: 0 5px 5px 2px #112f2c;
+}
+
+.contact-mail:hover{
+  cursor: pointer;
+  box-shadow: #6be1d4 4px 4px;
+  background-color: rgba(205, 106, 106, 0.2);
+}
+
+
+.container-right{
+  border: thick double #6be1d4;
+  border-radius: 5px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 5px 2px #6be1d4;
+}
+.logo-phone{
+  width: 100px;
+}
+
+.container-right div{
+  margin: 0 2rem;
+}
+
+.container-right div a{
+  text-decoration: none;
+  color: white;
+}
+
+.appel{
+  margin-top: 5rem;
+}
+
+#call-me{
+  font-size: 40px;
+  font-family: Hack, sans-serif;
+  background: linear-gradient(90deg, rgb(95, 132, 233), rgb(63, 48, 194), rgb(104, 223, 193));
+  letter-spacing: 2px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+/**************partie2************/
+.container-middle{
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.container-middle .rectangle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5rem;
+  padding: 1rem;
+}
+
+.depannage{
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  background-color: rgba(103, 119, 151, 0.154);
+  box-shadow: 10px 10px 10px 10px rgb(15, 15, 15) ;
+}
+
+.depannage h3{
+  font-style: italic;
+}
+
+.depannage p{
+  text-align: center;
+  padding: 0 3rem 0 3rem
+}
+
+.container-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: rgba(29, 27, 27, 0.337);
+
+  padding:0 1rem;
+  margin: 0 0 3rem 3rem;
+}
+
+.cards img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.cards p{
+  width: 300px;
+  padding: 0 0 0 1rem;
+}
+/*********partie3**************/
+.container-bottom{
+  background-image: url("../IMG/clip-path2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+
+.container-job{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-job-left div, 
+.container-job-right div{
+  padding: 5rem;
+  width: 500px;
+  font-size: 2rem;
+}
+.left-job, .right-job{
+  margin: 0 1rem;
+}
+
+.container-job-left div p, .container-job-right div p {
+  font-size: 1.7rem;
+}
+
+.container-job-left div span,
+.container-job-right div span{
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+/**********MOBILE************/
+@media screen and (max-width:967px) {
+  .container-right{
+    margin-top: 2rem;
+  }
+}
